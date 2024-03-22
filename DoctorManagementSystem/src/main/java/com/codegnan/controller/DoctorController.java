@@ -3,6 +3,7 @@ package com.codegnan.controller;
 import java.util.List;
 
 
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
@@ -25,7 +26,7 @@ import com.codegnan.services.PatientServices;
 
 @RestController
 @RequestMapping("/doctors")
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "0.0.0.0")
 public class DoctorController {
 	
 	DoctorServices doctorServices;
