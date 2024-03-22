@@ -26,7 +26,7 @@ import com.codegnan.services.PatientServices;
 
 @RestController
 @RequestMapping("/doctors")
-@CrossOrigin(origins = "0.0.0.0")
+@CrossOrigin(origins = "http://13.50.109.26:3000/")
 public class DoctorController {
 	
 	DoctorServices doctorServices;

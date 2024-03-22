@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import com.codegnan.controller.PatientController;
 
 @SpringBootApplication
-@CrossOrigin(origins = "0.0.0.0")
+@CrossOrigin(origins = "http://13.50.109.26:3000/")
 public class DoctorManagementSystemApplication {
 
 	public static void main(String[] args) {
