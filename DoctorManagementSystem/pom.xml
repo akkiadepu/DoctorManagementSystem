@@ -40,10 +40,10 @@
 		</dependency>
 		<!--
 		https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml  -->
-		<dependency>
+		<!--<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
-		</dependency>
+		</dependency>-->
 		<!--  <dependency> <groupId>io.springfox</groupId>
 		<artifactId>springfox-boot-starter</artifactId> 
 			<version>3.0.0</version> </dependency>  -->
