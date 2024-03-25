@@ -24,9 +24,11 @@ import com.codegnan.exection.invalidDoctorIdExection;
 import com.codegnan.services.DoctorServices;
 import com.codegnan.services.PatientServices;
 
+import io.swagger.v3.oas.models.media.MediaType;
+
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/doctors")
-@CrossOrigin(origins = "http://13.50.109.26:3000/")
 public class DoctorController {
 	
 	DoctorServices doctorServices;

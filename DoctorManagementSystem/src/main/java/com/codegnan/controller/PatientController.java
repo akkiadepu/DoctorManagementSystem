@@ -23,8 +23,8 @@ import com.codegnan.exection.invalidPatientIdExection;
 import com.codegnan.services.PatientServices;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/patients")
-@CrossOrigin(origins = "http://13.50.109.26:3000/")
 public class PatientController {
 	
 	PatientServices patientServices;
