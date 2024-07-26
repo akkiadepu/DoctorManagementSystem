@@ -1,8 +1,10 @@
 package com.codegnan.services;
 
 import java.util.List;
+
 import java.util.Optional;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +17,7 @@ import com.codegnan.repo.DoctorRepo;
 public class DoctorServices {
 
 	DoctorRepo doctorRepo;
+	Logger log = Logger.getLogger(DoctorServices.class);
 	
 	public DoctorServices() {
 		super();
@@ -41,6 +44,7 @@ public class DoctorServices {
 	}
 	
 	public Doctor saveDoctors(Doctor doctor) {
+		log.debug("doctor created");
 		return doctorRepo.save(doctor);
 	}
 	public Doctor editDoctors(Doctor doctor) throws invalidDoctorIdExection {
