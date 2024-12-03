@@ -12,6 +12,7 @@ public class HomeController {
 	@GetMapping
 	public String home() {
 		return "Welcome to DoctorManagementSystem REST Application";
+		
 	}
 
 }
